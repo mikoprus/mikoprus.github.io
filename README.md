@@ -1,4 +1,5 @@
-**Mikołaj Prus 👨🏼‍💻**\
+**Mikołaj Prus 👨🏼‍💻**
+<br /> <br />
 👋 Hi! I'm a seasoned dev and an ex-founder, currently Senior Frontend Developer at TTMS, specialising in React Native, ReactJS, Electron, Javascript and Typescript.
 Previously, I contributed to the success of Baanx by designing and implementing a white-labeled crypto wallet and staking solution.
 <br /> <br />
