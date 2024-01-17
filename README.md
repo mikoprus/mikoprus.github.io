@@ -32,11 +32,6 @@
   Intuitive time-tracking solution created for co-operating, multitasking teams. It sums up working hours, tracks time spent on each project or task, and lets you export time reports. Timesheets also has a Custom BI dashboard for invoicing purposes which helps spot irregularities in the reports. That way no working hours are missed.\
   _React_
 
-- **Bookontrol** - [website](https://apps.apple.com/pl/app/bookontrol/id1547097221)\
-  My own startup.
-  Management and synchronisation of booking information for short-term property renting between property owners, letting agencies and booking engines.\
-  _React, React Native, Node_
-
 - **Surveillance Monitoring web application for TKH Security** - [website](https://tkhsecurity.com/)\
   Microfrontend web application. Development platform for dev teams of different products to expose feed from their products to a single surveillance dashboard.\
   _React, Microfrontends_
