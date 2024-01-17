@@ -5,7 +5,7 @@ Previously, I contributed to the success of Baanx by designing and implementing 
 <br /> <br />
 My background includes significant roles at Miquido, where I enhanced a chat and crypto wallet app, and as Founder/CEO of Bookontrol, a SaaS business for short-term property rental management.
 <br /> <br />
-Feel free to connect with me at [prus.mikolaj@gmail.com](prus.mikolaj@gmail.com) or explore my professional journey on LinkedIn at [linkedin.com/in/prusm](linkedin.com/in/prusm).
+Feel free to connect with me at [prus.mikolaj@gmail.com](prus.mikolaj@gmail.com) or explore my professional journey on LinkedIn at [linkedin.com/in/prusm](https://linkedin.com/in/prusm).
 <br /> <br />
 Let's elevate the digital landscape together! 🚀
 
