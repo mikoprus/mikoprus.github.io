@@ -6,7 +6,7 @@ My background includes significant roles at Miquido and Baanx, where I enhanced 
 <br /> <br />
 ✉️ [prus.mikolaj@gmail.com](prus.mikolaj@gmail.com)
 <br />
-👨🏼‍💼[linkedin.com/in/prusm](https://linkedin.com/in/prusm).
+👨🏼‍💼 [linkedin.com/in/prusm](https://linkedin.com/in/prusm)
 <br /> <br />
 Let's elevate the digital landscape together! 🚀
 
