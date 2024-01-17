@@ -1,9 +1,8 @@
 **Mikołaj Prus 👨🏼‍💻**
 <br /> <br />
 👋 Hi! I'm a seasoned dev and an ex-founder, currently Senior Frontend Developer at TTMS, specialising in React Native, ReactJS, Electron, Javascript and Typescript.
-Previously, I contributed to the success of Baanx by designing and implementing a white-labeled crypto wallet and staking solution.
 <br /> <br />
-My background includes significant roles at Miquido, where I enhanced a chat and crypto wallet app, and as Founder/CEO of Bookontrol, a SaaS business for short-term property rental management.
+My background includes significant roles at Miquido and Baanx, where I enhanced a chat and crypto wallet/trading/staking app, and as Founder/CEO of Bookontrol, a SaaS business for short-term property rental management.
 <br /> <br />
 Feel free to connect with me at [prus.mikolaj@gmail.com](prus.mikolaj@gmail.com) or explore my professional journey on LinkedIn at [linkedin.com/in/prusm](https://linkedin.com/in/prusm).
 <br /> <br />
