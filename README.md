@@ -4,7 +4,7 @@
 <br /> <br />
 My background includes significant roles at Miquido and Baanx, where I enhanced a chat and crypto wallet/trading/staking app, and as Founder/CEO of Bookontrol, a SaaS business for short-term property rental management.
 <br /> <br />
-✉️ [prus.mikolaj@gmail.com](prus.mikolaj@gmail.com)
+✉️ [prus.mikolaj@gmail.com](mailto:prus.mikolaj@gmail.com)
 <br />
 👨🏼‍💼 [linkedin.com/in/prusm](https://linkedin.com/in/prusm)
 <br /> <br />
