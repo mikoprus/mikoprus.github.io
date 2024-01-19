@@ -17,33 +17,33 @@ Let's elevate the digital landscape together! 🚀
 
 ## Projects I worked on
 
-- **Pearson English International Certificate (PEIC)** [(link)](https://www.pearson.com/languages/test-takers/pearson-english-international-certificate.html)\
+- **Pearson English International Certificate (PEIC)** - [link](https://www.pearson.com/languages/test-takers/pearson-english-international-certificate.html)\
   Desktop, mobile and web applications to conduct testing for language certification. Applications contain advanced user monitoring features to facilitate proctoring.\
   _Electron, React, React Native, Node_
 
-- **CryptoLife** [(link))](https://withcl.com/)\
+- **CryptoLife** - [link](https://withcl.com/)\
   White labelled web and mobile applications. Buying, selling, transferring, staking cryptocurrencies. Debit cards enabling spending cryptocurrencies on fiat terminals.
   Notable clients: [Ledger](https://www.ledger.com/cl-card), [Tezos](<[https://www.tezoscrypto.life/](https://www.tezoscrypto.life/)>)\
   _React, React Native, Node_
 
-- **Dolby XP** [(link))](https://play.google.com/store/apps/details?id=com.dolby.exphub)\
+- **Dolby XP** - [link](https://play.google.com/store/apps/details?id=com.dolby.exphub)\
   Dolby XP is an invite-only app, currently only available to authorized partners and content creators. It showcases Dolby Vision and Dolby Atmos experiences across all entertainment categories.\
   _React Native_
 
-- **Flaim** [(link)](https://flaim.en.softonic.com/android)\
+- **Flaim** - [link](https://flaim.en.softonic.com/android)\
   Chat/social app resembling WeChat and WhatsApp targeted at MENA region.
   Encrypted calling and messaging, user profiles and sharing stories.\
   _React Native, Matrix_
 
-- **Quidlo Timesheets** [(link)](https://www.quidlo.com/timesheets/)\
+- **Quidlo Timesheets** - [link](https://www.quidlo.com/timesheets/)\
   Intuitive time-tracking solution created for co-operating, multitasking teams. It sums up working hours, tracks time spent on each project or task, and lets you export time reports. Timesheets also has a Custom BI dashboard for invoicing purposes which helps spot irregularities in the reports. That way no working hours are missed.\
   _React_
 
-- **Surveillance Monitoring web application for TKH Security** [(link)](https://tkhsecurity.com/)\
+- **Surveillance Monitoring web application for TKH Security** - [link](https://tkhsecurity.com/)\
   Microfrontend web application. Development platform for dev teams of different products to expose feed from their products to a single surveillance dashboard.\
   _React, Microfrontends_
 
-- **Howdy Host** [(link)](https://apkcombo.com/howdy-host/com.tkhtechnology.howdy.host/)\
+- **Howdy Host** - [link](https://apkcombo.com/howdy-host/com.tkhtechnology.howdy.host/)\
   Mobile application to facilitate hosting guests in office buildings.\
   _React Native_
 
