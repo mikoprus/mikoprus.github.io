@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mikołaj Prus — Senior Software Developer</title>
+<meta name="description" content="Senior software developer working in React, TypeScript, React Native and Electron. Since 2022 building remotely proctored, high-stakes English tests for Pearson.">
+<link rel="canonical" href="https://mikoprus.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Mikołaj Prus — Senior Software Developer">
+<meta property="og:description" content="React, TypeScript, React Native and Electron. Since 2022 building remotely proctored, high-stakes English tests for Pearson.">
+<meta property="og:url" content="https://mikoprus.github.io/">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F4E79'/%3E%3Ctext x='16' y='21.5' font-family='Arial,sans-serif' font-size='14' font-weight='700' fill='%23fff' text-anchor='middle'%3EMP%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --paper: #f6f8fa;
+    --ink: #15212d;
+    --muted: #55657a;
+    --accent: #1f4e79;
+    --rule: #d3dce5;
+    --font: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans", "Source Sans Pro", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0f1821;
+      --ink: #e3eaf1;
+      --muted: #9aabbb;
+      --accent: #8dbbe8;
+      --rule: #2a3a4a;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 1.125rem;
+    line-height: 1.55;
+    overflow-wrap: break-word;
+  }
+  .page {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 4.5rem 1.25rem 3rem;
+  }
+
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(2.5rem, 8vw, 3.75rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+  .role {
+    margin: 0 0 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.35;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .lede { margin: 0 0 1.5rem; }
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  h2 {
+    margin: 4.5rem 0 0;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.25;
+  }
+
+  .project { margin-top: 2.75rem; }
+  .context { margin: 0.35rem 0 0; color: var(--muted); }
+
+  /* The one strong device on the page: measured results, before and after. */
+  .figures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr));
+    gap: 1.25rem 2rem;
+    margin: 1.25rem 0 1.25rem;
+    padding: 1.1rem 0 0;
+    border-top: 3px solid var(--accent);
+  }
+  .figures > div { display: flex; flex-direction: column-reverse; justify-content: flex-end; }
+  .figures dt { color: var(--muted); font-size: 0.95rem; line-height: 1.3; }
+  .figures dd {
+    margin: 0;
+    color: var(--accent);
+    font-size: 2.6rem;
+    line-height: 1.05;
+    font-weight: 700;
+    font-variant-numeric: lining-nums tabular-nums;
+    letter-spacing: -0.02em;
+  }
+  .figures del {
+    margin-right: 0.3em;
+    color: var(--muted);
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-decoration-thickness: 2px;
+    letter-spacing: 0;
+  }
+  .figures ins { text-decoration: none; }
+  .figures small { font-size: 1.1rem; font-weight: 600; color: var(--muted); letter-spacing: 0; }
+
+  ul.work { margin: 0; padding-left: 1.15rem; }
+  ul.work li { margin: 0.45rem 0; padding-left: 0.2rem; }
+  ul.work li::marker { color: var(--accent); }
+  .stack { margin: 0.9rem 0 0; color: var(--muted); font-size: 1rem; }
+
+  dl.list { margin: 1.25rem 0 0; }
+  dl.list dt { margin-top: 1.5rem; font-weight: 700; }
+  dl.list dd { margin: 0.25rem 0 0; }
+
+  footer {
+    margin-top: 4.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 1rem;
+  }
+  footer p { margin: 0 0 0.4rem; }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  @media (max-width: 30rem) {
+    .page { padding-top: 3rem; }
+    h2 { margin-top: 3.5rem; }
+    .figures dd { font-size: 2.2rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header>
+  <h1>Mikołaj Prus</h1>
+  <p class="role">Senior software developer working in React, TypeScript, React&nbsp;Native and&nbsp;Electron.</p>
+  <p class="lede">Since 2022 I have been building remotely proctored, high-stakes English tests for Pearson: camera, microphone and audio code that has to work on the test taker’s own laptop or phone, checks that keep the exam fair, and the performance and accessibility work around them. I am now co-building a new AI-based product full-stack, with React and Spring Boot. Before that I shipped apps in fintech, messaging and SaaS, and founded a product company of my own.</p>
+  <ul class="contact">
+    <li><a href="mailto:prus.mikolaj@gmail.com">prus.mikolaj@gmail.com</a></li>
+    <li><a href="https://www.linkedin.com/in/prusm/">LinkedIn</a></li>
+    <li><a href="https://github.com/mikoprus">GitHub</a></li>
+  </ul>
+</header>
+
+<main>
+  <section aria-labelledby="work">
+    <h2 id="work">Selected work</h2>
+
+    <article class="project">
+      <h3><a href="https://www.pearson.com/languages/hr-professionals/versant.html">Versant</a> web test platform</h3>
+      <p class="context">Pearson, through Transition Technologies MS, 2024–2026. About 200 merged pull requests and 100 code reviews in a codebase of 17 developers.</p>
+      <dl class="figures">
+        <div><dt>Lighthouse score</dt><dd><span class="sr-only">from </span><del>65</del><span class="sr-only"> to </span><ins>98</ins></dd></div>
+        <div><dt>First Contentful Paint</dt><dd><span class="sr-only">from </span><del>3.0&nbsp;s</del><span class="sr-only"> to </span><ins>0.8&nbsp;s</ins></dd></div>
+        <div><dt>fewer redundant re-renders in key components</dt><dd>90–97%</dd></div>
+      </dl>
+      <ul class="work">
+        <li>Built remote proctoring that runs in a plain browser, without plugins: proctored session launch and resume, selfie and video capture, face detection, and camera fixes across browsers.</li>
+        <li>Fixed false cheating alerts that fired in production several times a minute and had been escalated by an integration partner, by rebuilding multi-tab detection.</li>
+        <li>Made audio reliable on Safari, iOS and Android, including a high-priority bug that could block test takers after a page refresh.</li>
+        <li>Optimized the bundle and re-renders as part of a platform scaling effort, and rebuilt the recording components for a new design system with WCAG&nbsp;2.1 improvements and right-to-left Arabic layouts.</li>
+      </ul>
+      <p class="stack">React, TypeScript, Vite, Vitest, Playwright, Sass.</p>
+    </article>
+
+    <article class="project">
+      <h3><a href="https://www.pearson.com/languages/test-takers/pearson-english-international-certificate.html">Pearson English International Certificate</a></h3>
+      <p class="context">Pearson, through Transition Technologies MS, 2022–2025. Desktop, web and mobile apps for taking and buying the test.</p>
+      <dl class="figures">
+        <div><dt>most active of 33 contributors</dt><dd>3rd</dd></div>
+        <div><dt>desktop releases cut</dt><dd>16</dd></div>
+      </dl>
+      <ul class="work">
+        <li>Founded the React Native app and its component library and chose the stack: Expo first, then the bare workflow, a monorepo Metro setup and design-system foundations from Figma. Wrote the team’s setup guides and mentored web developers moving into mobile.</li>
+        <li>Built on-device face detection and continuous frame upload for mobile proctoring, including a patch to react-native-vision-camera and a standalone detector package.</li>
+        <li>Added on-device photo quality checks (resolution, exposure, sharpness) to identity verification, so poor photos are caught before upload.</li>
+        <li>Built hardware pre-checks for the Electron app (background noise, speakers, bandwidth), exam-integrity safeguards and the web shop.</li>
+      </ul>
+      <p class="stack">Electron, React, React Native, TypeScript, Redux Toolkit, Jenkins.</p>
+    </article>
+
+    <article class="project">
+      <h3>A new AI-based product</h3>
+      <p class="context">Pearson, through Transition Technologies MS, since 2026. Built from scratch by a team of two engineers; I work full-stack, mostly on the frontend.</p>
+      <dl class="figures">
+        <div><dt>of all merged pull requests</dt><dd>40%</dd></div>
+        <div><dt>CI workflows written by me</dt><dd>4 <small>of 6</small></dd></div>
+      </dl>
+      <ul class="work">
+        <li>Bootstrapped the application from an existing test-delivery codebase in four days, with a fixture layer that let the whole user journey run end-to-end without any backend services.</li>
+        <li>Found that the repository’s CI had never run, moved and rewired it, and wrote the quality gate, end-to-end, visual regression and pull request checks.</li>
+        <li>Delivered accessibility fixes to WCAG AA: an ARIA 1.2 combobox, contrast, focus management in dialogs and screen-reader support.</li>
+      </ul>
+      <p class="stack">React 19, TypeScript, Vite, Spring Boot (Java), PostgreSQL, Playwright.</p>
+    </article>
+  </section>
+
+  <section aria-labelledby="earlier">
+    <h2 id="earlier">Earlier work</h2>
+    <dl class="list">
+      <dt>Baanx, 2021–2022</dt>
+      <dd>White-label crypto wallet apps for web and mobile (<a href="https://www.withcl.com/">CryptoLife</a>): buying, selling, transferring and staking crypto, plus debit cards for spending it at ordinary card terminals. Deployed for clients including Ledger and Tezos. React Native, React, Node.js.</dd>
+
+      <dt>Miquido, 2021</dt>
+      <dd>Flaim, an encrypted chat and social app on the Matrix protocol for the MENA region, and <a href="https://play.google.com/store/apps/details?id=com.dolby.exphub">Dolby XP</a>, a React Native app showcasing Dolby Vision and Dolby Atmos to partners and content creators.</dd>
+
+      <dt>TKH Technology, 2019–2021</dt>
+      <dd>A micro-frontend platform that brings feeds from many security products into one surveillance dashboard for TKH Security; Howdy Host, a React Native app for hosting guests in office buildings; and Felix, technical documentation for production-line workers on tablets. React, React Native, single-spa, Docker, Kubernetes.</dd>
+
+      <dt>Cardiff University, 2017</dt>
+      <dd>Research assistant: <a href="https://github.com/mikoprus/KUKA-LBR-IIWA">ball tracking and catching with a KUKA LBR iiwa robot arm</a>, using real-time computer vision and trajectory prediction.</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="own">
+    <h2 id="own">My own products</h2>
+    <dl class="list">
+      <dt>SquashTracker, 2023</dt>
+      <dd>An iOS app for tracking squash matches that I built on my own in React Native (Expo). It reached #40 in Sports on the Polish App Store in June 2023.</dd>
+
+      <dt>Bookontrol, 2020–2021</dt>
+      <dd>A SaaS for short-term rental management that kept bookings in sync between property owners, letting agencies and booking engines. I founded it, built the React Native app (published on the App Store), the web app and the Node.js backend, and took it from idea to paying pilot customers among letting agencies.</dd>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <p>BSc Computer Science, First Class Honours, Cardiff University.</p>
+  <p>Contact: <a href="mailto:prus.mikolaj@gmail.com">prus.mikolaj@gmail.com</a>. Updated November 2026.</p>
+</footer>
+
+</div>
+</body>
+</html>
