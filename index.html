@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mikołaj Prus — Senior Software Developer</title>
-<meta name="description" content="Senior software developer working in React, TypeScript, React Native and Electron. Since 2022 building remotely proctored, high-stakes English tests for Pearson.">
+<meta name="description" content="Senior software developer working in React, TypeScript, React Native and Electron. Building remotely proctored English tests and an AI conversational speaking assessment for Pearson.">
 <link rel="canonical" href="https://mikoprus.github.io/">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Mikołaj Prus — Senior Software Developer">
-<meta property="og:description" content="React, TypeScript, React Native and Electron. Since 2022 building remotely proctored, high-stakes English tests for Pearson.">
+<meta property="og:description" content="React, TypeScript, React Native and Electron. Building remotely proctored English tests and an AI conversational speaking assessment for Pearson.">
 <meta property="og:url" content="https://mikoprus.github.io/">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F4E79'/%3E%3Ctext x='16' y='21.5' font-family='Arial,sans-serif' font-size='14' font-weight='700' fill='%23fff' text-anchor='middle'%3EMP%3C/text%3E%3C/svg%3E">
@@ -158,7 +158,7 @@
 <header>
   <h1>Mikołaj Prus</h1>
   <p class="role">Senior software developer working in React, TypeScript, React&nbsp;Native and&nbsp;Electron.</p>
-  <p class="lede">Since 2022 I have been building remotely proctored, high-stakes English tests for Pearson: camera, microphone and audio code that has to work on the test taker’s own laptop or phone, checks that keep the exam fair, and the performance and accessibility work around them. I am now co-building a new AI-based product full-stack, with React and Spring Boot. Before that I shipped apps in fintech, messaging and SaaS, and founded a product company of my own.</p>
+  <p class="lede">Since 2022 I have been building remotely proctored, high-stakes English tests for Pearson: camera, microphone and audio code that has to work on the test taker’s own laptop or phone, checks that keep the exam fair, and the performance and accessibility work around them. I am now co-building, full-stack with React and Spring Boot, a speaking test in which candidates hold a real-time voice conversation with an AI character. Before that I shipped apps in fintech, messaging and SaaS, and founded a product company of my own.</p>
   <ul class="contact">
     <li><a href="mailto:prus.mikolaj@gmail.com">prus.mikolaj@gmail.com</a></li>
     <li><a href="https://www.linkedin.com/in/prusm/">LinkedIn</a></li>
@@ -169,6 +169,24 @@
 <main>
   <section aria-labelledby="work">
     <h2 id="work">Selected work</h2>
+
+    <article class="project">
+      <h3>AI conversational speaking assessment</h3>
+      <p class="context">Pearson (Versant), through Transition Technologies MS, since 2026. Test takers hold a scored, real-time voice conversation with an AI character. Built from scratch by a team of two engineers; I work full-stack, mostly on the frontend.</p>
+      <dl class="figures">
+        <div><dt>less dead air in every spoken exchange</dt><dd>≈8&nbsp;s</dd></div>
+        <div><dt>of all merged pull requests</dt><dd>40%</dd></div>
+        <div><dt>CI workflows written by me</dt><dd>4 <small>of 6</small></dd></div>
+      </dl>
+      <ul class="work">
+        <li>Replaced a fixed silence timeout with adaptive end-of-speech detection, so the conversation moves on as soon as the test taker stops speaking, and streamed the AI character’s voice with Media Source Extensions, with a full-buffer fallback for iPhone Safari.</li>
+        <li>Fixed real-time defects: answers lost to an empty conversational turn, a WebSocket that reconnected twice per second and wiped the transcript, and silent microphones on iPhone caused by a WebKit bug. The answer and microphone fixes are guarded by new unit and end-to-end tests.</li>
+        <li>Bootstrapped the application from an existing test-delivery codebase in four days, with a fixture layer that let the whole test-taker journey run end-to-end without any backend services.</li>
+        <li>Built admin tools for scenario authoring: a Markdown editor with version preview and a “test drive” mode backed by a new Spring Boot endpoint.</li>
+        <li>Found that the repository’s CI had never run, moved and rewired it, and wrote the quality gate, end-to-end, visual regression and pull request checks; delivered WCAG AA fixes across the app.</li>
+      </ul>
+      <p class="stack">React 19, TypeScript, Vite, Spring Boot (Java), PostgreSQL, WebSockets, Playwright.</p>
+    </article>
 
     <article class="project">
       <h3><a href="https://www.pearson.com/languages/hr-professionals/versant.html">Versant</a> web test platform</h3>
@@ -203,20 +221,6 @@
       <p class="stack">Electron, React, React Native, TypeScript, Redux Toolkit, Jenkins.</p>
     </article>
 
-    <article class="project">
-      <h3>A new AI-based product</h3>
-      <p class="context">Pearson, through Transition Technologies MS, since 2026. Built from scratch by a team of two engineers; I work full-stack, mostly on the frontend.</p>
-      <dl class="figures">
-        <div><dt>of all merged pull requests</dt><dd>40%</dd></div>
-        <div><dt>CI workflows written by me</dt><dd>4 <small>of 6</small></dd></div>
-      </dl>
-      <ul class="work">
-        <li>Bootstrapped the application from an existing test-delivery codebase in four days, with a fixture layer that let the whole user journey run end-to-end without any backend services.</li>
-        <li>Found that the repository’s CI had never run, moved and rewired it, and wrote the quality gate, end-to-end, visual regression and pull request checks.</li>
-        <li>Delivered accessibility fixes to WCAG AA: an ARIA 1.2 combobox, contrast, focus management in dialogs and screen-reader support.</li>
-      </ul>
-      <p class="stack">React 19, TypeScript, Vite, Spring Boot (Java), PostgreSQL, Playwright.</p>
-    </article>
   </section>
 
   <section aria-labelledby="earlier">
@@ -240,7 +244,7 @@
     <h2 id="own">My own products</h2>
     <dl class="list">
       <dt>SquashTracker, 2023</dt>
-      <dd>An iOS app for tracking squash matches that I built on my own in React Native (Expo). It reached #40 in Sports on the Polish App Store in June 2023.</dd>
+      <dd>An iOS app for tracking squash matches that I built on my own in React Native (Expo). It reached #40 in Sports on the Polish App Store in June 2023; it is no longer listed, as I have closed my Apple developer account.</dd>
 
       <dt>Bookontrol, 2020–2021</dt>
       <dd>A SaaS for short-term rental management that kept bookings in sync between property owners, letting agencies and booking engines. I founded it, built the React Native app (published on the App Store), the web app and the Node.js backend, and took it from idea to paying pilot customers among letting agencies.</dd>
